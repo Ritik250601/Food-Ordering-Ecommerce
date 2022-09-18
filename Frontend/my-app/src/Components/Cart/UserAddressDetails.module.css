@@ -1,0 +1,106 @@
+.form {
+    margin: 1rem 0;
+    height: 19rem;
+    overflow: auto;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  
+  .control input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+  }
+
+  .errorcontrol {
+    /* font: inherit; */
+    border: 1px solid #aa0b20;
+    /* border-radius: 4px; */
+    /* width: 20rem; */
+    /* max-width: 100%; */
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  
+  .actions button {
+    font: inherit;
+    color: #aa2727;;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem; 
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #ffe6dc;
+  }
+  
+  .actions .submit {
+    border: 1px solid #aa2727;
+    background-color: #aa2727;
+   
+    color: white;
+  }
+  
+  .actions .submit:hover,
+  .actions .submit:active {
+    background-color: #7a2706;
+  }
+  
+  .invalid label {
+    color: #ca3e51;
+  }
+  
+  .invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
+
+  .button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #aa2727;
+    border: 1px solid #aa2727;
+    /* background-color: #8a2b06; */
+    /* border: 1px solid #8a2b06; */
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    min-width: 10rem;
+    height:2rem;
+    margin-left: 50%;
+    margin-top: 2rem;
+}
+
+.button:hover,
+.button:active {
+    /* background-color: #641e03;
+    border-color: #641e03; */
+    background-color: #f35b1a;
+    border-color: #f35b1a;
+}
+
+.error_input_border{
+  border:2px solid red;
+}
+.error_para{
+color: #aa0b20;
+}
+

@@ -1,0 +1,11 @@
+.nav-form{
+margin-left: 20rem;
+}
+
+
+@media only screen and (max-width:690px){
+    .nav-form{
+        margin-left: 0;
+    }
+    
+}
